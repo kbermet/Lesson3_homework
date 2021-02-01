@@ -1,7 +1,7 @@
 # 1. Реализовать функцию, принимающую два числа (позиционные аргументы) и выполняющую их деление.
 # Числа запрашивать у пользователя, предусмотреть обработку ситуации деления на ноль.
 num1 = int(input('Enter first number: '))
-num2 = int(input('Enter second number: '))
+num2 = int(input('Enter sekond number: '))
 
 def num_div(*args):
     global num2

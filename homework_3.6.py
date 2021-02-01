@@ -13,3 +13,5 @@ def int_func():
         print(word.title() if letters == len(word) else f"{word} - type words only in lowercase.")
 
 int_func()
+
+#change

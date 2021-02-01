@@ -2,7 +2,7 @@
 # год рождения, город проживания, email, телефон. Функция должна принимать параметры как именованные аргументы.
 # Реализовать вывод данных о пользователе одной строкой.
 
-name = input('Enter your name: ')
+name = input('Enter yourr name: ')
 surname = input('Enter your surname: ')
 birth = input('Enter your birth date: ')
 city = input('Enter your city: ')

@@ -1,7 +1,7 @@
 # Реализовать функцию my_func(), которая принимает три позиционных аргумента, и возвращает сумму наибольших
 # двух аргументов\
 
-num1 = int(input('Enter first number: '))
+num1 = int(input('Enter firstt number: '))
 num2 = int(input('Enter second number: '))
 num3 = int(input('Enter third number: '))
 

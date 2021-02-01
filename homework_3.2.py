@@ -10,8 +10,8 @@ email = input('Enter your email: ')
 tel = input('Enter your telephone: ')
 
 
-def prof (**kwargs):
+def prof(**kwargs):
     return prof()
 
-print (f"You are {name} {surname}, born on {birth} in {city}, your email is {email} and tel:{tel}")
 
+print(f"You are {name} {surname}, born on {birth} in {city}, your email is {email} and tel:{tel}")

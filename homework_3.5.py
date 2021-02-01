@@ -3,3 +3,20 @@
 # будет добавляться к уже подсчитанной сумме. Но если вместо числа вводится специальный символ, выполнение программы
 # завершается. Если специальный символ введен после нескольких чисел, то вначале нужно добавить сумму этих чисел к
 # полученной ранее сумме и после этого завершить программу.
+
+def user_num():
+    a = 0
+    while True:
+        my_list = input("Enter any number, if you want to exit, print 'r': ").split()
+        for num in my_list:
+            if num == "r":
+                return a
+            else:
+                try:
+                    a += int(num)
+                except ValueError:
+                    print("To exit the program, enter - 'r'.")
+        print(f"Sum of numbers = {a}")
+
+
+print(user_num())
